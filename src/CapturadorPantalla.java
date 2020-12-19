@@ -41,12 +41,12 @@ class Program extends JFrame{
 				// TODO Auto-generated method stub
 				try {
 					
-					SimpleDateFormat formatter = new SimpleDateFormat("ddMMyyyy hh mm ss a");
 					topFrame.setExtendedState(JFrame.ICONIFIED);
+					SimpleDateFormat formatter = new SimpleDateFormat("ddMMyyyy hh mm ss a");
 					Calendar now = Calendar.getInstance();
 			        Robot robot = new Robot();
 			        BufferedImage screenShot = robot.createScreenCapture(new Rectangle(screen_size));
-			        ImageIO.write(screenShot, "TIFF", new File("screenshots\\"+formatter.format(now.getTime())+".tiff"));
+			        ImageIO.write(screenShot, "TIFF", new File("screenshots"+File.separator+formatter.format(now.getTime())+".tiff"));
 			        System.out.println(formatter.format(now.getTime()));
 				
 				}catch(Exception ex) {
