@@ -1,8 +1,8 @@
 EN
-THIS PROGRAM TAKES A SCREENSHOT AN SAVES IT IN A FILE WITH .TIFF EXTENSION
+This program takes a screenshot and saves it in a .tiff file.
 When you run the java file a window will appear. The window contains a button with the text "Screenshot". When you press that button the window is minimized 
 and the program takes a screenshot.
-The screenshot's file will be saved in the "screenshots" folder
+The screenshot's file will be saved in the "screenshots" folder.
 
 
 ES
